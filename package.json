@@ -1,0 +1,29 @@
+{
+  "name": "cypresspractice",
+  "version": "1.0.0",
+  "description": "E2E framework testing cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianPertuz/CypressPractice.git"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "Sebastian Pertuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianPertuz/CypressPractice/issues"
+  },
+  "homepage": "https://github.com/SebastianPertuz/CypressPractice#readme",
+  "devDependencies": {
+    "cypress": "^13.3.3"
+  }
+}
