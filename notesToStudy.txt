@@ -1,0 +1,62 @@
+====== Selectors or locators ====== 
+
+=== CSS Selectors ===
+These are the selectors that can be found on tags of DOM. 
+Like inputs, titles, dropdown, etc. (Anchor tag or its attribute, example: <a href>)
+
+== Id selector ==
+Selects an element based in the VALUE of its "ID" attribute. There sould be only one element with a given ID in a document.
+
+Syntax: #content -> The symbol # indicate that this element is a unique ID.
+
+
+== Type selector ==
+Select an element based in the TAG NAME.  
+
+Syntax: elementName -> Search by the tag name of the element.
+
+
+== Child combinator ==
+This help to select the elements that are direct childs of the selected element.
+
+Syntax: A > B
+
+- example: ul > li -> This will select all the <li> tags founded inside of <ul> tag.
+
+
+== Descendant combinator ==
+This selector needs a space between elements. This found ALL direct elements of parent.
+
+Syntax: A B
+
+
+== Class selector ==
+Found elements based on the class name of the element.
+
+Syntax: .className
+
+
+== Adjacent sibling combinator ==
+This means that the second element directly follows the first, and both share the same parent. 
+
+Syntax: A + B
+
+
+== Attribute selectors ==
+Select elements based in the value of the attribute.
+
+Syntax: tag[attribute] - tag[attribute='name']
+
+
+== Choosing a specific match ==
+This found a specific child.
+
+Syntax: :nth-child(*number of element that I want to search*)
+
+
+== Sub-String matches ==
+    - ^ = Match a prefix (At start of text)
+    - $ = Match a suffix (At end of text)
+    - * = Match a substring(Contains any text)
+
+Syntax: 
